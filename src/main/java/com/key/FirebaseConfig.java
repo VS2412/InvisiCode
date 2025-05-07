@@ -15,10 +15,10 @@ public class FirebaseConfig {
     public static void initialize() {
         try {
             InputStream serviceAccount = Main.class.getClassLoader()
-                    .getResourceAsStream("ivcde-9b5d7-firebase-adminsdk-fbsvc-c317f1d2d8.json");
+                    .getResourceAsStream("file.json");
             FirebaseOptions options = new FirebaseOptions.Builder()
                     .setCredentials(GoogleCredentials.fromStream(serviceAccount))
-                    .setDatabaseUrl("https://ivcde-9b5d7-default-rtdb.asia-southeast1.firebasedatabase.app") 
+                    .setDatabaseUrl("url-for-your-firebasedatabase.app") 
                                                                                                               
                     .build();
             FirebaseApp.initializeApp(options);
