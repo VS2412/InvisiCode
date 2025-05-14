@@ -18,12 +18,12 @@ The project demonstrates the process of capturing keystrokes and storing them in
 - **Lightweight**: The program runs in the background, and no user interface is shown unless the program is opened.
 - **Written in Java**: Built using Java’s `KeyListener` and `FileWriter`, making it easy to compile and run.
 
-⚠️ DISCLAIMER:
-This project is created strictly for **educational and ethical research purposes**.
-Do NOT use this software on machines you do not own or without explicit permission.
-The developer is NOT responsible for any misuse.
-
 ### Key Highlights:
 
 - **Ethical Considerations**: This emphasizes the importance of using the keylogger only with explicit permission and under legal circumstances.
 - **Contributing**: Provides guidance for others interested in contributing to the project.
+
+⚠️ DISCLAIMER:
+This project is created strictly for **educational and ethical research purposes**.
+Do NOT use this software on machines you do not own or without explicit permission.
+The developer is NOT responsible for any misuse.
